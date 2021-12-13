@@ -6,7 +6,7 @@ from predict.predict import predict_
 
 app = Flask(__name__)
 
-@app.route('/predict', methods=['POST'])
+@app.route('/', methods=['POST'])
 def predict():
     if request.method == 'POST':
         file = request.json
@@ -15,4 +15,4 @@ def predict():
         return json.dumps(prediction.tolist())
 
 if __name__ == '__main__':
-    app.run(port=8080, debug=True)
+    app.run(host='0.0.0.0')
