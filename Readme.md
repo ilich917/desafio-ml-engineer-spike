@@ -28,8 +28,8 @@ Puede realizar llamadas a la dirección 'localhost:8080/predict' usando CURL o P
 ### Sobre la solución
 Supuestos y limitaciones:
 
-* El modelo asume que en la base de datos se encuentran los valores asociados a los últimos 3 meses. Si no es así, la llamada devolverá ERROR y se pedirá reentrenar el modelo con los datos actualizados hasta el mes anterior.
-* Dados los datos, el modelo solo puede predecir Marzo del 2021.
+* El modelo asume que en la base de datos se encuentran los valores asociados a los últimos 3 meses.
+* Dados los datos, el modelo solo puede predecir Mayo del 2020.
 * Se asume que los valores del banco central vienen referenciados respecto a cierto año y que las entradas de nuevos datos que se realicen corresponden en formato con las de la base de datos.
 
 Pendiente: 
