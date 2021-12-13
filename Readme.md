@@ -7,6 +7,7 @@ La solución cuenta con dos carpetas principales: API y Retrain
 
 ## Retrain
 
+Dentro de la carpeta, cree un environment conda o python e intale los paquetes de requirements.txt.
 Para reentrenar el modelo, modifique o reemplace los csv en la carpeta 'Retrain/data' con la información actualizada del último mes.
 A continuación ejecute el archivo 'Retrain/main.py'
 Luego copie el nuevo modelo en la carpeta model de 'API/app'.
