@@ -22,6 +22,7 @@ Construya una imagen docker a partir del archivo Dockerfile en la carpeta 'API'
 Corra el container con el código 'docker run --publish 5000:5000 name_of_image:latest'
 La llamada consiste en enviar con POST, un archivo json idéntico al archivo 'API/app/data/latest_month_copy.json', el que deberá completar manualmente una vez al mes con los datos necesarios para predecir el precio de la leche.
 Puede realizar llamadas a la dirección 'localhost:5000/' usando CURL o Postman, por ejemplo.
+La respuesta sería similar a "[35.96097446546537]", de tipo text/html.
 
 [1]: <https://www.docker.com> "Link al sitio web de Docker"
 
