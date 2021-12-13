@@ -11,7 +11,7 @@ def predict():
     if request.method == 'POST':
         file = request.json
         query_to_predict = preprocess_query(file)
-        prediction = predict(query_to_predict)
+        prediction = predict_(query_to_predict)
         return json.dumps(prediction)
 
 if __name__ == '__main__':
