@@ -19,9 +19,9 @@ La carpeta 'API' contiene el código para crear la imagen docker correspondiente
 Necesitará tener instalado Docker[1] en su ordenador.
 Abra una consola y diríjase a la carpeta 'API'.
 Construya una imagen docker a partir del archivo Dockerfile en la carpeta.
-Corra el container exponiendo los puertos 8080:8080.
+Corra el container exponiendo el puerto 5000
 La llamada consiste en enviar con POST, un archivo json idéntico al archivo 'API/app/data/latest_month_copy.json', el que deberá completar manualmente una vez al mes con los datos necesarios para predecir el precio de la leche.
-Puede realizar llamadas a la dirección 'localhost:8080/predict' usando CURL o Postman, por ejemplo.
+Puede realizar llamadas a la dirección 'localhost:5000/' usando CURL o Postman, por ejemplo.
 
 [1]: <https://www.docker.com> "Link al sitio web de Docker"
 
