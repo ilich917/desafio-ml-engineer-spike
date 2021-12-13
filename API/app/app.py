@@ -12,7 +12,7 @@ def predict():
         file = request.json
         query_to_predict = preprocess_query(file)
         prediction = predict_(query_to_predict)
-        return json.dumps(prediction)
+        return json.dumps(prediction.tolist())
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(port=8080, debug=True)
