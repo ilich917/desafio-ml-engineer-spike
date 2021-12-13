@@ -1,0 +1,8 @@
+flask
+pandas
+dateparser
+scikit-learn
+numpy
+matplotlib
+joblib
+
